@@ -50,8 +50,7 @@ export default function App() {
           </Text> 
           
           </View>}
-        keyExtractor={(item) => item.key}>
-      </FlatList>
+        keyExtractor={(item) => item.key}/>
       <View style={styles.controlElem}>
         <TextInput 
           placeholder="Enter Task Description..."
